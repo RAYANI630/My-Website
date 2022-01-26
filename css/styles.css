@@ -1,0 +1,138 @@
+h1 { 
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 1rem;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+}
+.dwnld-btn{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 30%;
+}
+.img-class{
+    position: relative;
+}
+.feature{
+    text-align: center;
+    margin: 5rem 0;
+}
+#features{
+    padding: 5% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+p{
+    font-size: 22px;
+    color: grey;
+}
+h2{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 2rem;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.test-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing{
+    padding: 3% 2%;
+}
+
+/* Footer-Section */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 5% 15%;
+    text-align: center;
+    
+}
+.cta-txt{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.footer-text{
+    margin: 3%;
+}
+#footer{
+    text-align: center;
+    padding: 5% 15%;
+}
+a{
+    color: #000;
+    margin: 1%;
+}
+@media (max-width: 1000px){
+
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
